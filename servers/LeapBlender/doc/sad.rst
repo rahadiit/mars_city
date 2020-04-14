@@ -132,7 +132,7 @@ Basic Course
 #. The HUD is displayed on the V-ERAS environment with connected message.
 #. The User then uses his hands to signal whether he wants to add a device or delete one. ( 1.Add 2.Delete)
 #. The Blender Client then sends the device address to Habitat Monitor Server.
-#. The Server then polls the Device's Tango to recieve data and sends it back to Blender Client via Socket Connection
+#. The Server then polls the Device's Tango to receive data and sends it back to Blender Client via Socket Connection
 #. The HUD displays the appropriate data.
 
 
