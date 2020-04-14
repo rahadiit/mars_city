@@ -28,7 +28,7 @@ class Blender():
         self.summaryNode = None
         nodes = self.db.nodes
         self.checkedLeaves = []
-        try: #code to connect to client and recieve first few data items
+        try: #code to connect to client and receive first few data items
             self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             self.sock.bind((TCP_IP, TCP_PORT))
             self.sock.listen(1)
@@ -59,7 +59,7 @@ class Blender():
                     try:
                         data = self.conn.recv(BUFFER_SIZE)
                         response+=data
-                        data_arr=json.loads(response) #to recieve data as an array of strings from client
+                        data_arr=json.loads(response) #to receive data as an array of strings from client
                         self.devName=data_arr[0]
                         self.attrname=data_arr[1]
                         self.delete_node()
