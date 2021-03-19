@@ -13,7 +13,7 @@ numpy==1.11.1
 pathlib2==2.1.0
 pgu==0.18
 pickleshare==0.7.2
-Pillow==3.3.0
+Pillow==8.1.1
 Polygon2==2.0.6
 PyAutoGUI==0.9.33
 pygame==1.9.2a0
